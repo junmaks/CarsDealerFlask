@@ -1,0 +1,98 @@
+{
+  "$schema": "http://localhost:5000/api/dealers/",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "location",
+        "year"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "location",
+        "year"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "location",
+        "year"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "location",
+        "year"
+      ]
+    }
+  ]
+}

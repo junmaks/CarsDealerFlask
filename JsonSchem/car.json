@@ -1,0 +1,32 @@
+{
+  "$schema": "http://localhost:5000/api/cars/<int:id_car>",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "car_model": {
+      "type": "string"
+    },
+    "year_of_release": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "dealer": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "brand",
+    "car_model",
+    "year_of_release",
+    "price",
+    "dealer"
+  ]
+}

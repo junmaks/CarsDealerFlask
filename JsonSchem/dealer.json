@@ -1,0 +1,24 @@
+{
+  "$schema": "http://localhost:5000/api/dealers/<int:id_dealer>",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "location",
+    "year"
+  ]
+}
